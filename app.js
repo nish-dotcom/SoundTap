@@ -7,11 +7,11 @@ app.get("/",function(req,res){
 });
 
 
-// app.listen(process.env.PORT, process.env.IP, function(){
-//     console.log("The Server Has Started!");
-//  });
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("The Server Has Started!");
+ });
 
-app.listen(3000, function(req,res){
-	console.log("The Server has Started!")	   
-});
+// app.listen(3000, function(req,res){
+// 	console.log("The Server has Started!")	   
+// });
 	
